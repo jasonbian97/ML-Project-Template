@@ -13,9 +13,30 @@ Project layout is critical for machine learning projects just as it is for softw
 - **Reproducibility**: Easily run and create the same artefacts by you in the future or another person.
 - **Efficiency**: Less thought on meta project details like the tools and more on the problems you are solving.
 
+## How to use?
+```python
+python create_dir.py --project_dir [path/to/your/project_root]
+# For example
+# python create_dir.py --project_dir /mnt/ssd2/Projects/MyFoo
+```
 
-
-## Project Structure
+## How does created directories look like?
+```shell script
+MyFoo
+├── config
+├── data
+│   ├── cache
+│   ├── munge
+│   └── raw
+├── results
+│   ├── logs
+│   └── report
+├── src
+│   ├── lib
+│   └── scripts
+├── README.md
+└── TODO.md
+```
 
 **planning**: Contains miscellaneous files. It could be useful papers, vague thoughts, etc.
 
